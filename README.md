@@ -7,3 +7,10 @@ pipenv install
 pipenv shell
 python send_cloudwatch.py
 ```
+
+OR 
+```python3 -m venv cloudwatch-venv
+source cloudwatch-venv/bin/activate
+pip install boto3
+```
+
